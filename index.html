@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Application</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body onload="loadNotes()">
+    <div class="container">
+        <h1 class="mainHeading">Notes Application <br>
+            <small>Take notes and never forgot</small>
+        </h1>
+        <div class="searchBar">
+            <input type="text" placeholder="Search notes" id="searchItems" onkeydown="searchNotes()" onkeyup="searchNotes()">
+            <select class="downItem" onchange="sortBy()">
+                <option class="downOpt" value="ascending">SearchBy Ascending Order</option>
+                <option class="downOpt" value="descending">SearchBy Descending Order</option>
+            </select>
+        </div>
+    <div id="output">
+
+        <!-- <div class="item">
+            <div class="controls">
+                <button>Edit</button>
+                <button>Delete</button>
+            </div>
+            <h2>Notes - 1</h2>
+            <p>This is Notes - 1 Content</p>
+        </div> -->
+
+    </div>
+    <div class="inputbar">
+        <input type="text" id="inputAddBar" placeholder="Enter Your Notes">
+        <button onclick="addEditNotes()">Add/Edit</button>
+    </div>
+    </div>
+
+    <script src="jsCode.js"></script>
+    <!-- <script src="myCode.js"></script> -->
+    <!-- <script src="myScript.js"></script> -->
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>

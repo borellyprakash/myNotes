@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container{
+    width: 80%;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.mainHeading{
+    text-align: center;
+    font-size: 50px;
+    background-color: tomato;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.searchBar input{
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    flex-wrap: wrap;
+    border: 1px solid tomato;
+    margin-bottom: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.downItem{
+    width: 40%;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 1px solid tomato;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.deletebtn{
+    cursor: pointer;
+    border-radius: 100px;
+    width: 200px;
+    background-color: tomato;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+.downItem .downOpt{
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+#output{
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    max-height: 400px;
+    overflow: auto;
+}
+.error{
+    margin-top: 150px;
+    color: red;
+    text-align: center;
+}
+.item{
+    background-color: tomato;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 20px;
+}
+.item .controls{
+    float: right;
+}
+.item .controls button{
+    background-color: aliceblue;
+    padding: 10px 20px ;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.inputbar input{
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 10px;
+    outline: none;
+    margin-top: 20px;
+    border: 1px solid tomato;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.inputbar button{
+    background-color: tomato;
+    padding: 10px 20px ;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
